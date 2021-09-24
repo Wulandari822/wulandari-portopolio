@@ -1,0 +1,46 @@
+body {
+  background-color: blanchedalmond;
+}
+.gambar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  float: left; 
+}
+.nama {
+  width: 70%;
+  float: left;
+  line-height: 100%;
+  font-weight: 700;
+}
+* {
+  font-family: Oswald, sans-serif;
+}
+.w {
+  max-width: 10px;
+  max-height: 10px;
+}
+.garis {
+  background-color: black;
+  max-height: 1px;
+}
+:root {
+  --warnahitam: black;
+  --warnaputih: blanchedalmond;
+}
+.lan {
+  background-color: var(--warnahitam);
+  color: var(--warnaputih);
+}
+.N {
+  background-color: var(--warnahitam);
+  color: var(--warnaputih);
+}
+.d {
+  background-color: var(--warnahitam);
+  color: var(--warnaputih);
+}
+.h {
+  background-color: var(--warnahitam);
+  color: var(--warnaputih);
+}
